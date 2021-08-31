@@ -1,0 +1,29 @@
+
+<mat-drawer-container class="" autosize>
+  <mat-drawer #drawer class="sidenav" mode="side">
+      <a class="drop" href="#drop">Websites</a><br>
+      <a class="drop" href="#drop2">Recursos</a>
+  </mat-drawer>
+  <div class="container">
+    <button type="button" mat-button (click)="drawer.toggle()" class="button-size">
+      <mat-icon>list</mat-icon>
+    </button>
+    
+    <div class="second-container">
+      <img class="my-foto" src="assets/marley.jpg" alt="Foto">
+      <ul>
+          <li><h2>Marley Santiago e Silva</h2></li>
+          <li><h2>Desenvolvedor Front-End</h2></li>
+          <li>
+            <span><a href="https://www.linkedin.com/in/marley-santiago-957200149/" target="_blank"><img class="header-img" src="assets/linkedin.png" alt=""></a></span>
+            <span><a href="https://github.com/Marleysantiago" target="_blank"><img class="header-img" src="assets/github.png" alt=""></a></span>
+            <span><a href="#drop3"><img class="header-img" src="assets/email.png" alt=""></a></span>
+          </li>
+      </ul>
+    </div>
+    
+  </div>
+
+</mat-drawer-container>
+
+
