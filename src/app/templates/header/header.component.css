@@ -35,11 +35,7 @@
     justify-content: center;
     padding-top: 0.5rem;
 }
-.item{
-    width: 100px;
-    height: 50px;
-    background-color: aqua;
-}
+
 .button-size{
     height: 30px;
     margin-left: 0.3rem;
